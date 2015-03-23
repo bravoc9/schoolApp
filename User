@@ -1,5 +1,4 @@
-public abstract class User {
-    public abstract String getName();
-    public abstract String getID();
+public interface User {
+    public String getName();
+    public String getID();
 }
-tents here
