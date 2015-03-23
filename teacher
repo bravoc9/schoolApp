@@ -1,0 +1,17 @@
+public class Teacher implements User{
+    private String name;
+    private String ID;
+    private Class[] aDayClasses;
+    private Class[] bDayClasses;
+    public Teacher(String n, String identification){
+        name=n;
+        ID=identification;
+        
+    }
+    public String getID(){
+        return ID;
+    }
+    public String getName(){
+        return name;
+    }
+}
