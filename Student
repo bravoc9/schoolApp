@@ -1,0 +1,15 @@
+public class Student implements User {
+    private String name;
+    private String ID;
+    public Student(String n, String identification) {
+        name = n;
+        ID = identification;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getID() {
+        return ID;
+    }
+        
+}
